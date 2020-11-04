@@ -53,6 +53,7 @@ And its tree up to 3 iterations:
     __/__   \__   \__ '_,___  // Via an aplication of the rules, "A-F" is expanded to "A-F-FA", - is constant, "FA" becomes "FAA-F"
 3.  A - F - F A - F A  A - F  // 
 ```
-The full string for iteration four would be `A-F-FA-FAA-F-FAA-FA-F-FA`.
+The full string or iteration four would be `A-F-FA-FAA-F-FAA-FA-F-FA`.
+
 ### Applications
-L-Systems are commonly used in conjuntion with graphical programs called Turtles that take a definite list of instructions to follow one by one.  The characters in the string output from an L-System can be mapped to instructions for a Turtle.  The turtle would follow these instructions as they appear in the string.  
+L-Systems are commonly used in conjuntion with graphical programs called Turtles that take a definite list of instructions to follow one by one.  The characters in the string output from an L-System can be mapped to instructions for a Turtle.  The turtle would follow these instructions as they appear in the string.  In my program the string `FF--F+F` would mean go forward twice, turn left twice, go forward once, turn right once, go forward once.
